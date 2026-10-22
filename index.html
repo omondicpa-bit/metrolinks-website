@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta property="og:title" content="Metrolink's Group of Companies">
+<meta property="og:description" content="Private investigations, security and debt recovery services from Pima House, Nairobi.">
+<meta property="og:url" content="https://metrolinks.africa/">
+<meta property="og:image" content="https://metrolinks.africa/logo.png">
+<link rel="canonical" href="https://metrolinks.africa/">
+<title>Metrolink's Group of Companies</title>
+<meta name="description" content="Metrolink's Group of Companies — private investigations, security and debt recovery services from Pima House, Nairobi.">
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+/* Layout: sticky brand bar, then full-width bands alternating paper / tint / slate, content in a 1120px column */
+:root{
+  --paper:#FFFFFF; --tint:#EEF5F6; --line:#D5DDE0;
+  --ink:#1E2830; --muted:#4E5B66;
+  --teal:#1F7F88; --teal-text:#1F6E76; --slate:#2F3D4A; --slate-ink:#FFFFFF; --slate-soft:#9FD3D8; --slate-line:#4E5F6E;
+  --logo-bg:#FFFFFF;
+  --display:'Archivo Black', 'Arial Black', Impact, sans-serif;
+  --body:'Source Sans 3', 'Segoe UI', Helvetica, Arial, sans-serif;
+  --wrap:1120px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#141B21; --tint:#1B252D; --line:#2C3943; --ink:#E6ECEF; --muted:#A6B3BC;
+  --teal:#3AA6B0; --teal-text:#6CC4CC; --slate:#0E1419; --slate-ink:#E6ECEF; --slate-soft:#8FCFD5; --slate-line:#2C3943;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#141B21; --tint:#1B252D; --line:#2C3943; --ink:#E6ECEF; --muted:#A6B3BC;
+  --teal:#3AA6B0; --teal-text:#6CC4CC; --slate:#0E1419; --slate-ink:#E6ECEF; --slate-soft:#8FCFD5; --slate-line:#2C3943;
+  color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+section[id]{scroll-margin-top:72px}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--paper)}
+a{color:var(--teal-text)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--teal);outline-offset:3px}
+h1,h2,h3{text-wrap:balance;margin:0}
+p{margin:0}
+.wrap{max-width:var(--wrap);margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.band{padding-block:clamp(56px,8vw,96px)}
+.band.tint{background:var(--tint)}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--teal-text)}
+.h2{font-family:var(--display);font-weight:400;font-size:clamp(30px,4.2vw,44px);line-height:1.1;color:var(--ink)}
+.head{display:flex;flex-direction:column;gap:10px;margin-bottom:36px;max-width:680px}
+.head p{color:var(--muted)}
+
+/* header */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--paper);border-top:6px solid var(--teal);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:12px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.brand img{width:48px;height:29px;object-fit:contain;background:var(--logo-bg);border-radius:4px;padding:2px}
+.brand b{font-family:var(--display);font-weight:400;font-size:18px;color:var(--teal);letter-spacing:.02em}
+.brand span{font-size:11px;font-weight:700;letter-spacing:.18em;color:var(--muted)}
+nav{display:flex;gap:4px;flex-wrap:wrap}
+nav a{color:var(--ink);text-decoration:none;font-weight:600;font-size:15px;padding:8px 12px;border-radius:4px}
+nav a:hover{background:var(--tint)}
+nav a.cta{background:var(--teal);color:#FFFFFF}
+nav a.cta:hover{background:var(--teal-text)}
+@media (max-width:640px){.brand span{display:none} nav a{padding:6px 8px;font-size:14px}}
+
+/* hero */
+.hero{padding-block:clamp(48px,7vw,88px) 0}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:48px;align-items:center}
+.hero-copy{display:flex;flex-direction:column;gap:22px;min-width:0}
+.hero h1{font-family:var(--display);font-weight:400;font-size:clamp(40px,6.4vw,72px);line-height:1.02;color:var(--ink)}
+.hero h1 em{font-style:normal;color:var(--teal)}
+.hero .lede{font-size:19px;color:var(--muted);max-width:560px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;text-decoration:none;font-weight:700;padding:13px 22px;border-radius:4px;border:2px solid var(--teal)}
+.btn.solid{background:var(--teal);color:#FFFFFF}
+.btn.solid:hover{background:var(--teal-text);border-color:var(--teal-text)}
+.btn.line{color:var(--teal-text)}
+.btn.line:hover{background:var(--tint)}
+.mark{background:var(--slate);color:var(--slate-ink);padding:36px 32px;display:flex;flex-direction:column;gap:22px}
+.mark .logo{background:#FFFFFF;padding:14px 18px;align-self:flex-start;border-radius:4px}
+.mark .logo img{width:150px;height:90px;object-fit:contain;display:block}
+.mark .name{font-family:var(--display);font-size:clamp(30px,3.4vw,40px);line-height:1;color:var(--slate-soft)}
+.mark .group{font-size:14px;font-weight:700;letter-spacing:.3em;color:var(--slate-ink)}
+.mark ul{list-style:none;margin:0;padding:18px 0 0;border-top:1px solid var(--slate-line);display:flex;flex-direction:column;gap:8px;font-weight:600}
+.mark li{display:flex;gap:10px;align-items:center}
+.mark li::before{content:"";width:9px;height:9px;background:var(--slate-soft);flex-shrink:0}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:2px solid var(--ink);border-bottom:1px solid var(--line);margin-top:clamp(48px,6vw,72px)}
+.stats div{padding:20px 20px 20px 0;display:flex;flex-direction:column;gap:2px}
+.stats div+div{border-left:1px solid var(--line);padding-left:20px}
+.stats b{font-family:var(--display);font-weight:400;font-size:clamp(28px,3.4vw,40px);color:var(--teal);line-height:1.2}
+.stats span{font-size:15px;color:var(--muted)}
+@media (max-width:820px){.hero-grid{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:560px){.stats{grid-template-columns:minmax(0,1fr)}.stats div+div{border-left:0;border-top:1px solid var(--line);padding-left:0}}
+
+/* about */
+.about-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:40px}
+.about-text{display:flex;flex-direction:column;gap:16px;max-width:65ch;min-width:0}
+.vm{display:grid;gap:16px;align-content:start}
+.vm div{padding:24px;display:flex;flex-direction:column;gap:8px}
+.vm .v{background:var(--paper);border:1px solid var(--line)}
+.vm .m{background:var(--slate);color:var(--slate-ink)}
+.vm .m .eyebrow{color:var(--slate-soft)}
+.values{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:48px}
+.values div{border-top:3px solid var(--ink);padding-top:12px;display:flex;flex-direction:column;gap:4px}
+.values h3{font-size:18px;font-weight:700}
+.values p{font-size:15px;color:var(--muted)}
+@media (max-width:820px){.about-grid{grid-template-columns:minmax(0,1fr)}.values{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:480px){.values{grid-template-columns:minmax(0,1fr)}}
+
+/* services */
+.svc-title{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;border-bottom:2px solid var(--ink);padding-bottom:8px;margin-bottom:20px}
+.svc-title h3{font-size:21px}
+.svc-title span{font-size:13px;font-weight:700;letter-spacing:.16em;color:var(--muted);text-transform:uppercase}
+.svc{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 40px}
+.svc div{display:flex;gap:14px}
+.svc div::before{content:"";width:9px;height:9px;background:var(--teal);margin-top:9px;flex-shrink:0}
+.svc h4{margin:0;font-size:17px}
+.svc p{font-size:15px;color:var(--muted)}
+.subs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:48px}
+.sub{padding:28px;display:flex;flex-direction:column;gap:14px}
+.sub.dark{background:var(--slate);color:var(--slate-ink)}
+.sub.dark .eyebrow{color:var(--slate-soft)}
+.sub.light{background:var(--tint);border-top:4px solid var(--teal)}
+.sub h3{font-size:23px}
+.sub ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px;font-size:15px}
+@media (max-width:720px){.svc,.subs{grid-template-columns:minmax(0,1fr)}}
+
+/* approach */
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0;counter-reset:s}
+.steps li{counter-increment:s;padding:0 20px 0 0;display:flex;flex-direction:column;gap:10px;position:relative}
+.steps li::before{content:counter(s);font-family:var(--display);font-size:20px;color:#FFFFFF;background:var(--teal);width:48px;height:48px;display:flex;align-items:center;justify-content:center}
+.steps li:nth-child(even)::before{background:var(--slate)}
+.steps li::after{content:"";position:absolute;top:23px;left:56px;right:8px;height:2px;background:var(--line)}
+.steps li:last-child::after{display:none}
+.steps h3{font-size:18px}
+.steps p{font-size:15px;color:var(--muted)}
+@media (max-width:900px){.steps{grid-template-columns:minmax(0,1fr);gap:22px}.steps li{flex-direction:row;padding:0;gap:18px}.steps li::before{flex-shrink:0}.steps li::after{display:none}.steps li>div{display:flex;flex-direction:column;gap:4px}}
+@media (min-width:901px){.steps li>div{display:flex;flex-direction:column;gap:6px}}
+
+/* why + clients */
+.why-grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:48px}
+.why{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 28px}
+.why li{display:flex;gap:12px}
+.why svg{flex-shrink:0;margin-top:4px}
+.why b{display:block}
+.why span{font-size:15px;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{font-weight:600;font-size:15px;padding:8px 14px;background:var(--paper);border:1px solid var(--line)}
+.lawful{margin-top:40px;padding:24px 28px;background:var(--paper);border:1px solid var(--line);display:flex;flex-direction:column;gap:8px}
+.lawful p{color:var(--muted);max-width:80ch}
+@media (max-width:860px){.why-grid{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:520px){.why{grid-template-columns:minmax(0,1fr)}}
+
+/* clients */
+.pub{background:var(--slate);color:var(--slate-ink);padding:24px 28px;display:flex;flex-direction:column;gap:14px}
+.pub .eyebrow{color:var(--slate-soft)}
+.pub-names{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.pub-names span{font-size:20px;font-weight:700;border-left:3px solid var(--slate-soft);padding-left:14px;line-height:1.3}
+.cl-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;margin-top:32px;align-items:start}
+.cl{border-top:2px solid var(--ink);padding-top:10px;min-width:0}
+.cl h3{font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-text);margin-bottom:8px}
+.cl ul{list-style:none;margin:0;padding:0}
+.cl li{font-weight:600;font-size:15px;padding:7px 0;border-bottom:1px solid var(--line);display:flex;flex-direction:column}
+.cl small{font-weight:400;font-size:13px;color:var(--muted)}
+.more{margin-top:24px;font-weight:600;color:var(--muted)}
+@media (max-width:960px){.cl-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:540px){.cl-grid,.pub-names{grid-template-columns:minmax(0,1fr)}}
+
+/* contact */
+.contact{background:var(--slate);color:var(--slate-ink);padding-block:clamp(56px,8vw,88px)}
+.contact .eyebrow{color:var(--slate-soft)}
+.contact .h2{color:var(--slate-ink)}
+.cgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;border-top:1px solid var(--slate-line);padding-top:28px;margin-top:32px}
+.cgrid div{display:flex;flex-direction:column;gap:6px;min-width:0}
+.cgrid h3{font-size:13px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--slate-soft)}
+.cgrid a{color:var(--slate-ink);text-decoration:none;font-weight:600;overflow-wrap:anywhere}
+.cgrid a:hover{text-decoration:underline}
+.contact .btns{margin-top:32px}
+.contact .btn.solid{background:var(--slate-soft);border-color:var(--slate-soft);color:#14202A}
+.contact .btn.line{border-color:var(--slate-soft);color:var(--slate-ink)}
+.contact .btn.line:hover{background:var(--slate-line)}
+@media (max-width:860px){.cgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:480px){.cgrid{grid-template-columns:minmax(0,1fr)}}
+footer{background:var(--slate);color:var(--slate-soft);border-top:1px solid var(--slate-line);font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:20px}
+footer::after{content:"";display:block;height:8px;background:var(--teal)}
+</style>
+<style>body{margin:0}img{max-width:100%}</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Metrolink's Group of Companies, back to top">
+      <img src="logo.png" alt="">
+      <b>METROLINK'S</b>
+      <span>GROUP OF COMPANIES</span>
+    </a>
+    <nav aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#approach">Approach</a>
+      <a href="#clients">Clients</a>
+      <a class="cta" href="#contact">Contact us</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">Private investigations · Security · Debt recovery</div>
+          <h1>Discretion. Integrity. <em>The Truth.</em></h1>
+          <p class="lede">Professional investigation, security and debt recovery services for businesses, institutions and individuals across Kenya, from our offices at Pima House, Nairobi.</p>
+          <div class="btns">
+            <a class="btn solid" href="#contact">Talk to us</a>
+            <a class="btn line" href="#services">See our services</a>
+          </div>
+        </div>
+        <div class="mark" aria-label="The group and its companies">
+          <div class="logo"><img src="logo.png" alt="Metrolink's eye logo"></div>
+          <div>
+            <div class="name">METROLINK'S</div>
+            <div class="group">GROUP OF COMPANIES</div>
+          </div>
+          <ul>
+            <li>Metrolink's Security Services</li>
+            <li>Metrolink's Debt Collectors Ltd</li>
+          </ul>
+        </div>
+      </div>
+      <div class="stats">
+        <div><b>15+</b><span>years of investigative experience</span></div>
+        <div><b>2</b><span>specialist companies under one group</span></div>
+        <div><b>Kenya</b><span>nationwide coverage, coordinated from Nairobi</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="about">
+    <div class="wrap">
+      <div class="head">
+        <div class="eyebrow">Who we are</div>
+        <h2 class="h2">About Metrolink's</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Metrolink's Group of Companies is a Nairobi-based investigations, security and debt recovery group. It brings together Metrolink's Security Services and Metrolink's Debt Collectors Ltd under one leadership, giving clients a single, trusted point of contact for sensitive matters.</p>
+          <p>Built on some fifteen years of field experience, our team gathers and analyses information, verifies facts, documents findings and traces people and property, helping clients make informed decisions and recover what is theirs.</p>
+          <p>We have worked hand in hand with the police and other investigating agencies, and we carry out every assignment with discretion, integrity and respect for the law.</p>
+        </div>
+        <div class="vm">
+          <div class="v">
+            <div class="eyebrow">Our vision</div>
+            <p>To be a trusted and respected investigations and security group in Kenya and the wider East African region, known for professionalism, integrity and dependable results.</p>
+          </div>
+          <div class="m">
+            <div class="eyebrow">Our mission</div>
+            <p>To provide lawful, confidential and evidence-based services that help our clients establish facts, manage risk, prevent losses and recover what is owed to them.</p>
+          </div>
+        </div>
+      </div>
+      <div class="values" aria-label="Our core values">
+        <div><h3>Integrity</h3><p>Honest, impartial and ethical in everything we do.</p></div>
+        <div><h3>Confidentiality</h3><p>Client information handled with discretion and care.</p></div>
+        <div><h3>Professionalism</h3><p>High standards in planning, fieldwork and reporting.</p></div>
+        <div><h3>Accountability</h3><p>We stand behind our work and our findings.</p></div>
+        <div><h3>Accuracy</h3><p>Verified facts, clearly separated from hearsay.</p></div>
+        <div><h3>Legality</h3><p>Every assignment conducted within Kenyan law.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band tint" id="services">
+    <div class="wrap">
+      <div class="head">
+        <div class="eyebrow">What we do</div>
+        <h2 class="h2">Our Services</h2>
+      </div>
+      <div class="svc-title"><h3>Investigations &amp; Intelligence</h3><span>Across the group</span></div>
+      <div class="svc">
+        <div><section><h4>Criminal Investigations</h4><p>Fact-finding into theft, break-ins and other criminal matters, working alongside the police.</p></section></div>
+        <div><section><h4>Fraud &amp; Forensic Investigations</h4><p>Uncovering financial irregularities, internal fraud and document fraud.</p></section></div>
+        <div><section><h4>Infrastructure Theft &amp; Vandalism</h4><p>Exposing the networks behind theft of equipment, cables and site assets.</p></section></div>
+        <div><section><h4>Corporate Investigations</h4><p>Employee misconduct, internal theft and workplace inquiries.</p></section></div>
+        <div><section><h4>Surveillance &amp; Undercover Work</h4><p>Discreet, lawful observation to gather first-hand information.</p></section></div>
+        <div><section><h4>Tracing &amp; Recoveries</h4><p>Following stolen property and the people behind it through to recovery.</p></section></div>
+        <div><section><h4>Background Checks &amp; Due Diligence</h4><p>Screening staff, partners and vendors through lawful sources.</p></section></div>
+        <div><section><h4>Insurance Investigations</h4><p>Verifying claims and investigating suspected fraudulent claims.</p></section></div>
+        <div><section><h4>Legal Support</h4><p>Locating witnesses and persons, and organising evidence for advocates.</p></section></div>
+        <div><section><h4>Private Inquiries</h4><p>Confidential personal and family matters, handled with discretion.</p></section></div>
+      </div>
+      <div class="subs">
+        <article class="sub dark">
+          <div class="eyebrow">Subsidiary</div>
+          <h3>Metrolink's Security Services</h3>
+          <ul>
+            <li><b>VIP Protection</b> — close protection and secure escort for executives, dignitaries and private clients.</li>
+            <li><b>Crowd Control</b> — trained personnel for events, gatherings and high-traffic premises.</li>
+            <li><b>Phone &amp; Laptop Tracking</b> — tracing and recovery of lost or stolen devices.</li>
+          </ul>
+        </article>
+        <article class="sub light">
+          <div class="eyebrow">Subsidiary</div>
+          <h3>Metrolink's Debt Collectors Ltd</h3>
+          <ul>
+            <li><b>Debt Collection</b> — a full-service collection agency recovering commercial and personal debts.</li>
+            <li><b>Debtor Tracing</b> — locating debtors who have moved or gone silent.</li>
+            <li><b>Asset Tracing</b> — identifying assets that can support recovery or legal action.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="approach">
+    <div class="wrap">
+      <div class="head">
+        <div class="eyebrow">How we work</div>
+        <h2 class="h2">Our Approach</h2>
+        <p>Every assignment follows the same five stages, so clients know what to expect and every finding can be relied upon.</p>
+      </div>
+      <ol class="steps">
+        <li><div><h3>Consultation</h3><p>We listen to your concerns, agree the objectives and set a clear scope of work.</p></div></li>
+        <li><div><h3>Case Assessment</h3><p>We choose the right methods and weigh the risks, resources and legal considerations.</p></div></li>
+        <li><div><h3>Investigation</h3><p>We gather information lawfully, through intelligence work, discreet field operations and tracing.</p></div></li>
+        <li><div><h3>Analysis &amp; Verification</h3><p>We test what we find and separate verified facts from rumour.</p></div></li>
+        <li><div><h3>Reporting &amp; Handover</h3><p>Findings are documented clearly and confidentially; where an offence is established, evidence goes to you and the appropriate authorities.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="band tint" id="why">
+    <div class="wrap">
+      <div class="why-grid">
+        <div>
+          <div class="head">
+            <div class="eyebrow">Our promise</div>
+            <h2 class="h2">Why Choose Us</h2>
+          </div>
+          <ul class="why">
+            <li><svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20"><path d="M4 10.5l4 4 8-9" fill="none" stroke="currentColor" stroke-width="2.5" style="color:var(--teal)"/></svg><div><b>Proven experience</b><span>Some fifteen years of field investigations, tracing and recoveries.</span></div></li>
+            <li><svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20"><path d="M4 10.5l4 4 8-9" fill="none" stroke="currentColor" stroke-width="2.5" style="color:var(--teal)"/></svg><div><b>Trusted relationships</b><span>A long record of working alongside the police and investigating agencies.</span></div></li>
+            <li><svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20"><path d="M4 10.5l4 4 8-9" fill="none" stroke="currentColor" stroke-width="2.5" style="color:var(--teal)"/></svg><div><b>One group, many needs</b><span>Investigations, security and debt recovery under one roof.</span></div></li>
+            <li><svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20"><path d="M4 10.5l4 4 8-9" fill="none" stroke="currentColor" stroke-width="2.5" style="color:var(--teal)"/></svg><div><b>Discreet by design</b><span>Quiet fieldwork that does not alert those under investigation.</span></div></li>
+            <li><svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20"><path d="M4 10.5l4 4 8-9" fill="none" stroke="currentColor" stroke-width="2.5" style="color:var(--teal)"/></svg><div><b>Evidence you can use</b><span>Findings documented to a standard that supports legal action.</span></div></li>
+            <li><svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20"><path d="M4 10.5l4 4 8-9" fill="none" stroke="currentColor" stroke-width="2.5" style="color:var(--teal)"/></svg><div><b>Clear engagement</b><span>Agreed scope, regular updates and transparent terms.</span></div></li>
+          </ul>
+        </div>
+        <div>
+          <div class="head">
+            <div class="eyebrow">Who we serve</div>
+            <h2 class="h2" style="font-size:clamp(24px,3vw,30px)">Our Clients</h2>
+          </div>
+          <div class="chips">
+            <span>Corporate organisations</span><span>SMEs</span><span>Telecom &amp; utility companies</span><span>Law firms &amp; advocates</span><span>Insurance companies</span><span>Banks &amp; financial institutions</span><span>NGOs &amp; institutions</span><span>Property owners</span><span>Private individuals</span>
+          </div>
+        </div>
+      </div>
+      <div class="lawful">
+        <div class="eyebrow">Confidentiality &amp; lawful conduct</div>
+        <p>All our work is carried out in accordance with the laws of Kenya. Information is gathered by lawful means only, client details are handled in strict confidence, and our investigators never act as, or present themselves as, law enforcement officers. Matters requiring arrest or prosecution are referred to the appropriate authorities.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="clients">
+    <div class="wrap">
+      <div class="head">
+        <div class="eyebrow">Our track record</div>
+        <h2 class="h2">Clients We Have Served</h2>
+        <p>Over the years, Metrolink's has been trusted by public institutions, lenders, manufacturers and distributors across Kenya. A selection of them:</p>
+      </div>
+      <div class="pub">
+        <div class="eyebrow">Public sector &amp; utilities</div>
+        <div class="pub-names"><span>Kenya Power and Lighting Company</span><span>National Police Service</span></div>
+      </div>
+      <div class="cl-grid">
+        <div class="cl"><h3>Credit &amp; financial services</h3><ul><li>Pathways Credit Limited</li><li>Ismuk Credit Limited</li><li>Jamedi Credit Limited</li><li>Agriphine Cash Limited</li></ul></div>
+        <div class="cl"><h3>Manufacturing &amp; industrial</h3><ul><li>Kentainers Limited <small>Northland, Nairobi</small></li><li>Euro Industrial Chemicals Limited <small>Industrial Area</small></li><li>Ideal Manufactures Limited <small>Industrial Area</small></li><li>Chema East Africa Limited <small>Ruiru</small></li></ul></div>
+        <div class="cl"><h3>Food, feeds &amp; consumer goods</h3><ul><li>Promasidor Limited <small>Syokimau</small></li><li>Kantana Foods <small>Mombasa</small></li><li>Chania Feeds <small>Thika</small></li><li>Treasure Feeds <small>Ruiru</small></li><li>Sigma Feeds</li><li>Total Fresh Ltd</li></ul></div>
+        <div class="cl"><h3>Trade, logistics &amp; agencies</h3><ul><li>Baraka Kenya Limited</li><li>Uchumi Bora Limited</li><li>Aura Trading Limited <small>Industrial Area</small></li><li>A-Z Supplies Limited <small>Industrial Area</small></li><li>Meskey &amp; Femtee PVT Limited <small>Mombasa</small></li><li>Kenskay Agencies Limited <small>Mombasa</small></li><li>Goal Apex Limited</li><li>Shan Kenya Limited</li><li>ECOWAS Logistics</li><li>Fox Logistics</li></ul></div>
+      </div>
+      <p class="more">…and many other businesses and individuals.</p>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <div class="head" style="margin-bottom:0">
+        <div class="eyebrow">Get in touch</div>
+        <h2 class="h2">Let us help you uncover the facts.</h2>
+      </div>
+      <div class="cgrid">
+        <div><h3>Office</h3><p>Pima House, 2nd Floor<br>Wing B, Room 22<br>Nairobi, Kenya</p></div>
+        <div><h3>Postal address</h3><p>P.O. Box 20605-00100<br>Nairobi, Kenya</p></div>
+        <div><h3>Telephone</h3><p><a href="tel:+254721377668">0721 377 668</a><br><a href="tel:+254724854553">0724 854 553</a><br><a href="tel:+254722459724">0722 459 724</a></p></div>
+        <div><h3>Email &amp; web</h3><p><a href="mailto:metrolinksgroupofcompanies@gmail.com">metrolinksgroupofcompanies@gmail.com</a><br><a href="https://metrolinks.africa">www.metrolinks.africa</a></p></div>
+      </div>
+      <div class="btns">
+        <a class="btn solid" href="tel:+254721377668">Call 0721 377 668</a>
+        <a class="btn line" href="https://www.google.com/maps/search/?api=1&amp;query=Pima+House+Nairobi" target="_blank" rel="noopener">Get directions</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="yr">2026</span> Metrolink's Group of Companies</span>
+    <span>Metrolink's Security Services · Metrolink's Debt Collectors Ltd</span>
+  </div>
+</footer>
+<script>try{document.getElementById('yr').textContent=new Date().getFullYear()}catch(e){}</script>
+
+</body>
+</html>
